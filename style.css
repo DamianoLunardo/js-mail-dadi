@@ -1,0 +1,50 @@
+body {
+    margin-top: 20px;
+}
+
+#emailForm {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+#risultato {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* button valido per entrambi gli esercizi */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#risultato2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
