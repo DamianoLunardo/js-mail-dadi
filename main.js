@@ -50,7 +50,6 @@ emailForm.addEventListener('submit', function(event) {
     for (let i = 0; i < listaAutorizzati.length; i++) {
         if (listaAutorizzati[i] === emailUtente) {
             accessoConsentito = true;
-            break; // Esci dal ciclo se trovi una corrispondenza
         }
     }
 
